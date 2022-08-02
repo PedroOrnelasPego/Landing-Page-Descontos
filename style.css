@@ -138,6 +138,48 @@ button {
   .imagem {
     display: none;
   }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .conteudo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  
+}
+
+@media only screen and (max-width: 893px) {
+  form {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    margin: 20px 8px 20px;
+  }
 
   .container {
     display: flex;
@@ -146,7 +188,10 @@ button {
   }
 
   .conteudo {
-    margin: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .title {
@@ -177,23 +222,5 @@ button {
     font-size: 20px;
     border: 0;
     outline: 0;
-  }
-}
-
-@media only screen and (max-width: 838px) {
-  form {
-    display: flex;
-    align-items: center;
-  }
-
-  .navbar {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-  }
-
-  a {
-    margin: 20px 8px 20px;
   }
 }
